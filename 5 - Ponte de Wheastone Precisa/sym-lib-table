@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Ponte-rescue")(type "KiCad")(uri "${KIPRJMOD}/Ponte-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "CONSMA020.062-G")(type "KiCad")(uri "${KIPRJMOD}/Models/CONSMA020.062-G/CONSMA020.062-G.kicad_sym")(options "")(descr ""))
+)
