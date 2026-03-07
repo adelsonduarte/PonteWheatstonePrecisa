@@ -1580,6 +1580,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Q_NPN_BEC"
 			(pin_names
 				(offset 0)
@@ -3246,6 +3429,12 @@
 		(uuid "01da17cc-eda0-45bc-ac09-eb68293a2439")
 	)
 	(junction
+		(at 259.08 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0282f1b7-d34a-4e71-8851-a5a27dd20ae6")
+	)
+	(junction
 		(at 248.92 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3276,6 +3465,12 @@
 		(uuid "238b645f-473e-4c7e-8476-74393e2c911c")
 	)
 	(junction
+		(at 58.42 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24f55ecf-2fc0-4fb9-bbd0-e839e45e4a33")
+	)
+	(junction
 		(at 233.68 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3292,6 +3487,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d9ec2bf-301f-41b4-9f3b-d2aedb5f5cd1")
+	)
+	(junction
+		(at 257.81 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58b91adb-2764-4b69-9a6c-0427425f3840")
 	)
 	(junction
 		(at 54.61 30.48)
@@ -3318,6 +3519,12 @@
 		(uuid "759c3fdf-5ccd-4e83-8896-c3c92fa4dc14")
 	)
 	(junction
+		(at 96.52 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "823bb959-3a31-4f23-8f85-3d57c554ccb1")
+	)
+	(junction
 		(at 223.52 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3340,12 +3547,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bc1df2d-4f8d-4d67-8977-a18c5028b332")
-	)
-	(junction
-		(at 63.5 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96006cac-67e4-40d9-a8fc-73c54e525abe")
 	)
 	(junction
 		(at 35.56 59.69)
@@ -3493,6 +3694,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 71.12) (xy 259.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f214e6-324d-4265-b575-ff337d8b18a0")
+	)
+	(wire
+		(pts
 			(xy 124.46 69.85) (xy 130.81 69.85)
 		)
 		(stroke
@@ -3553,16 +3764,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 96.52) (xy 251.46 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10f11937-3e22-461b-a5ee-846955cadc2d")
-	)
-	(wire
-		(pts
 			(xy 105.41 92.71) (xy 160.02 92.71)
 		)
 		(stroke
@@ -3603,16 +3804,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 30.48) (xy 63.5 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d37e89a-6752-4fe0-b77f-e6ff823a7688")
-	)
-	(wire
-		(pts
 			(xy 50.8 59.69) (xy 50.8 66.04)
 		)
 		(stroke
@@ -3630,6 +3821,16 @@
 			(type default)
 		)
 		(uuid "201ab9b8-2af7-4ba6-b303-cdd7e17de836")
+	)
+	(wire
+		(pts
+			(xy 63.5 21.59) (xy 58.42 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232d50b0-0c6c-4626-9ddc-98396ad1e52f")
 	)
 	(wire
 		(pts
@@ -3653,6 +3854,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 88.9) (xy 248.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc798bc-626e-411a-b301-012e5f77e33b")
+	)
+	(wire
+		(pts
+			(xy 107.95 30.48) (xy 107.95 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df0360c-1fa2-477d-8933-2c40a40da6c2")
+	)
+	(wire
+		(pts
 			(xy 54.61 30.48) (xy 54.61 31.75)
 		)
 		(stroke
@@ -3660,6 +3881,16 @@
 			(type default)
 		)
 		(uuid "2e23ecc1-3088-4d98-bc19-f5a1acb479db")
+	)
+	(wire
+		(pts
+			(xy 58.42 21.59) (xy 58.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2edf2d78-aed9-4246-9451-2efd8f715aac")
 	)
 	(wire
 		(pts
@@ -3843,6 +4074,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 88.9) (xy 257.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515033c4-1659-4c3d-bf91-85800e31332e")
+	)
+	(wire
+		(pts
 			(xy 218.44 105.41) (xy 233.68 105.41)
 		)
 		(stroke
@@ -3850,6 +4091,26 @@
 			(type default)
 		)
 		(uuid "52857384-7652-45b3-897f-f460d9ea2a59")
+	)
+	(wire
+		(pts
+			(xy 58.42 30.48) (xy 66.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bde0f8-4a74-43ba-860a-a22b128549cc")
+	)
+	(wire
+		(pts
+			(xy 264.16 91.44) (xy 264.16 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57765738-4131-4f0d-8d11-b9bd4ae7083a")
 	)
 	(wire
 		(pts
@@ -3893,7 +4154,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 73.66) (xy 254 73.66)
+			(xy 248.92 71.12) (xy 259.08 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4163,7 +4424,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 88.9) (xy 248.92 88.9)
+			(xy 233.68 88.9) (xy 238.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4200,16 +4461,6 @@
 			(type default)
 		)
 		(uuid "91da8a8b-db91-47f2-afd6-3018554300d4")
-	)
-	(wire
-		(pts
-			(xy 63.5 30.48) (xy 66.04 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94026825-5509-4bc6-b798-d7f343e66fab")
 	)
 	(wire
 		(pts
@@ -4253,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 78.74) (xy 251.46 76.2)
+			(xy 264.16 73.66) (xy 264.16 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4303,7 +4554,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 88.9) (xy 251.46 88.9)
+			(xy 248.92 88.9) (xy 257.81 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4483,13 +4734,23 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 76.2) (xy 254 76.2)
+			(xy 264.16 73.66) (xy 266.7 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bf2e3f00-1904-4a79-82dd-421d37278303")
+	)
+	(wire
+		(pts
+			(xy 259.08 71.12) (xy 266.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0292fda-a40f-4f43-8839-d0738fa44453")
 	)
 	(wire
 		(pts
@@ -4553,7 +4814,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 30.48) (xy 63.5 30.48)
+			(xy 54.61 30.48) (xy 58.42 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4640,6 +4901,16 @@
 			(type default)
 		)
 		(uuid "e0974e8e-d9b0-45ff-9faa-4f45d25d1ee6")
+	)
+	(wire
+		(pts
+			(xy 63.5 29.21) (xy 63.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14bea44-1046-4f4d-aa02-54542a3e3124")
 	)
 	(wire
 		(pts
@@ -4733,7 +5004,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 88.9) (xy 248.92 73.66)
+			(xy 248.92 71.12) (xy 248.92 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4750,6 +5021,26 @@
 			(type default)
 		)
 		(uuid "f77f7e35-94bc-477e-9db6-f326e25c2303")
+	)
+	(wire
+		(pts
+			(xy 257.81 88.9) (xy 264.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78b5085-4d05-4590-8d40-a1bf5179de3c")
+	)
+	(wire
+		(pts
+			(xy 96.52 30.48) (xy 100.33 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf11aac-4dbe-47b2-b868-47295ffc18e9")
 	)
 	(wire
 		(pts
@@ -5869,7 +6160,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_POT_TRIM")
-		(at 148.59 99.06 180)
+		(at 148.59 99.06 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5886,7 +6178,7 @@
 			)
 		)
 		(property "Value" "R_POT_TRIM"
-			(at 150.368 100.203 0)
+			(at 150.368 97.917 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +6274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 166.37 87.63 0)
 			(effects
 				(font
@@ -5991,7 +6283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C5383111.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5447965.html"
 			(at 166.37 87.63 0)
 			(effects
 				(font
@@ -6008,7 +6300,16 @@
 				)
 			)
 		)
-		(property "LCSC part #" "C5383111"
+		(property "LCSC part #" "C5447965"
+			(at 166.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
 			(at 166.37 87.63 0)
 			(effects
 				(font
@@ -6170,6 +6471,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" ""
+			(at 20.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a3b2f3f-358b-49ba-a0e1-af34d1666780")
 		)
@@ -6251,7 +6561,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 256.54 88.9 0)
+		(at 269.24 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6259,7 +6569,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e3a2a36")
 		(property "Reference" "J5"
-			(at 256.54 94.996 0)
+			(at 269.24 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +6577,7 @@
 			)
 		)
 		(property "Value" "V_OUT"
-			(at 256.794 85.598 0)
+			(at 269.494 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6585,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 256.54 88.9 0)
+			(at 269.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6594,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/C5447965.html"
-			(at 256.54 88.9 0)
+			(at 269.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +6603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 88.9 0)
+			(at 269.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6301,7 +6611,7 @@
 			)
 		)
 		(property "LCSC part #" "C5447965"
-			(at 256.54 88.9 0)
+			(at 269.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,6 +7094,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 107.95 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d9f3584-f5ed-47a3-a477-e8c06c521176")
+		(property "Reference" "D3"
+			(at 111.76 37.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.76 39.6874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C375451.html"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red LED Indication - Discrete 2V 0805"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" "C375451"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b720398-faec-42c1-9dfe-9fabf2f354c6")
+		)
+		(pin "2"
+			(uuid "5e6e737a-d94e-49d8-890d-c4eebb4a8955")
+		)
+		(instances
+			(project ""
+				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 31.75 34.29 0)
 		(unit 1)
@@ -6866,6 +7273,93 @@
 			(project ""
 				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "151aabe3-9bb1-4792-8239-e77987224ed1")
+		(property "Reference" "R12"
+			(at 61.2526 26.5165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 63.5 27.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 61.722 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C19269962.html"
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1Ω 3.5W Thin Film Resistor ±50ppm/℃ ±1% 2512 Chip Resistor - Surface Mount RoHS"
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" "LCSC"
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "C19269962"
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4792b26-e316-4312-9c17-3e3f44a82dde")
+		)
+		(pin "2"
+			(uuid "a303cca6-0604-4227-a75f-1baacda68096")
+		)
+		(instances
+			(project "Ponte"
+				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6961,7 +7455,7 @@
 	)
 	(symbol
 		(lib_id "CONSMA020.062-G:CONSMA020.062-G")
-		(at 256.54 73.66 0)
+		(at 269.24 71.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6970,7 +7464,7 @@
 		(dnp no)
 		(uuid "240a1211-6b69-4df8-a529-8793c264b5b4")
 		(property "Reference" "J2"
-			(at 257.6195 67.31 0)
+			(at 270.3195 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7472,7 @@
 			)
 		)
 		(property "Value" "V_OUT"
-			(at 257.6195 69.85 0)
+			(at 270.3195 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +7480,7 @@
 			)
 		)
 		(property "Footprint" "LINX_CONSMA020.062-G"
-			(at 256.54 73.66 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +7490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 73.66 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7500,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 73.66 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +7509,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 256.54 73.66 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,7 +7519,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 256.54 73.66 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +7529,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.34mm"
-			(at 256.54 73.66 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7539,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Linx Technologies"
-			(at 256.54 73.66 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,6 +7624,89 @@
 			(project "Ponte"
 				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 31.75 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ac6297b-ac02-4af6-acca-d08d97727fc2")
+		(property "Reference" "#PWR014"
+			(at 31.75 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VIN"
+			(at 31.75 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffeecb17-3712-4bba-90d6-cd9d699b76cd")
+		)
+		(instances
+			(project "Ponte"
+				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7458,6 +8035,158 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 107.95 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d2a633a-d88d-40dd-ab68-37f106c695fd")
+		(property "Reference" "#PWR03"
+			(at 107.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bc7cf29-7bf9-403f-a9b9-e5d7e24a95bb")
+		)
+		(instances
+			(project "Ponte"
+				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.57 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6119ff4e-0e8b-489b-9ee6-0cf7a5f63473")
+		(property "Reference" "R11"
+			(at 243.586 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 243.586 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 242.57 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C217774.html"
+			(at 242.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC part #" "C217774"
+			(at 242.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 242.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dc1ff10-bbb2-4602-b3dc-370e6731131d")
+		)
+		(pin "2"
+			(uuid "8e19d742-580d-4ebc-98f9-ccdd8e4273f1")
+		)
+		(instances
+			(project "Ponte"
+				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 86.36 82.55 180)
 		(unit 1)
@@ -7550,7 +8279,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 78.74 0)
+		(at 264.16 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7558,7 +8287,7 @@
 		(dnp no)
 		(uuid "63c656df-18d3-4f8d-8e5e-2ec99a48fd01")
 		(property "Reference" "#PWR02"
-			(at 251.46 85.09 0)
+			(at 264.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +8296,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.587 83.1342 0)
+			(at 264.287 81.8642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,7 +8304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 78.74 0)
+			(at 264.16 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +8313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 78.74 0)
+			(at 264.16 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +8322,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 78.74 0)
+			(at 264.16 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,6 +8600,70 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 259.08 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c1f4f65-cded-4e2d-9ec5-90d2cec85d29")
+		(property "Reference" "#PWR012"
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.207 81.8642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7a0efe9-b100-4e7d-a295-fa57d3b84aec")
+		)
+		(instances
+			(project "Ponte"
+				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 223.52 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7935,7 +8728,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 96.52 0)
+		(at 264.16 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7943,7 +8736,7 @@
 		(dnp no)
 		(uuid "7e0157b0-0d8d-4d1e-939c-214b63157360")
 		(property "Reference" "#PWR01"
-			(at 251.46 102.87 0)
+			(at 264.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +8745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.587 100.9142 0)
+			(at 264.287 99.6442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +8753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 96.52 0)
+			(at 264.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +8762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 96.52 0)
+			(at 264.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +8771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 96.52 0)
+			(at 264.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,6 +8959,94 @@
 			(project "Ponte"
 				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 257.81 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a86fc0ff-4378-4dd0-b600-1195266b3614")
+		(property "Reference" "C7"
+			(at 255.4986 91.5416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100pF"
+			(at 255.4986 93.853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C182933.html"
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF ±1% 50V Ceramic Capacitor C0G 0805"
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" "C182933"
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c270551e-df63-4c00-9bb2-5c96ec397a2f")
+		)
+		(pin "1"
+			(uuid "01121d9f-af2b-4116-8e2c-0ccd3d98205e")
+		)
+		(instances
+			(project "Ponte"
+				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8384,6 +9265,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 257.81 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca3150ae-4bae-436b-8665-51eec79b4459")
+		(property "Reference" "#PWR013"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.937 99.6442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f114b1c-d7dc-4f22-8dee-6c4c677f582d")
+		)
+		(instances
+			(project "Ponte"
+				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA1656ID")
 		(at 64.77 90.17 0)
 		(unit 1)
@@ -8482,6 +9427,94 @@
 			(project "Ponte"
 				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 259.08 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8d23176-8978-41b9-9ace-cc3725c57bc0")
+		(property "Reference" "C6"
+			(at 256.7686 73.7616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100pF"
+			(at 256.7686 76.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C182933.html"
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF ±1% 50V Ceramic Capacitor C0G 0805"
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" "C182933"
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0a400db-2da4-46b7-8d83-d4b6040910d0")
+		)
+		(pin "1"
+			(uuid "d978a5b7-212c-4557-a304-9049544c6a7a")
+		)
+		(instances
+			(project "Ponte"
+				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8826,6 +9859,93 @@
 				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3429c2a-8243-4c72-bddf-ffd28c35838e")
+		(property "Reference" "R10"
+			(at 103.0235 28.2326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 102.108 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 104.14 28.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C19269962.html"
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1Ω 3.5W Thin Film Resistor ±50ppm/℃ ±1% 2512 Chip Resistor - Surface Mount RoHS"
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" "LCSC"
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "C19269962"
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b950b97-d910-488d-88c6-59bcfe8f7fde")
+		)
+		(pin "2"
+			(uuid "3d89fc4b-7109-4618-977a-1b02ab72ce5a")
+		)
+		(instances
+			(project "Ponte"
+				(path "/7d253cea-9aea-4c08-bb8d-c11bbeae1692"
+					(reference "R10")
+					(unit 1)
 				)
 			)
 		)
