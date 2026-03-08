@@ -5119,7 +5119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 200.66 82.55 0)
 			(effects
 				(font
@@ -5146,6 +5146,15 @@
 			)
 		)
 		(property "LCSC part #" "C19450"
+			(at 194.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
 			(at 194.31 85.09 0)
 			(effects
 				(font
@@ -5214,7 +5223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.282 81.28 90)
 			(effects
 				(font
@@ -5238,6 +5247,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5282,7 +5300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.282 99.06 90)
 			(effects
 				(font
@@ -5309,6 +5327,15 @@
 			)
 		)
 		(property "LCSC part #" "C869301"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
 			(at 99.06 99.06 0)
 			(effects
 				(font
@@ -5359,7 +5386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 136.652 82.55 90)
 			(effects
 				(font
@@ -5386,6 +5413,15 @@
 			)
 		)
 		(property "LCSC part #" "C136890"
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -5436,7 +5472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 136.652 99.06 90)
 			(effects
 				(font
@@ -5463,6 +5499,15 @@
 			)
 		)
 		(property "LCSC part #" "C869301"
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -5612,6 +5657,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "LCSC"
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f149edda-2618-4569-945b-7ac9555f47c0")
 		)
@@ -5684,6 +5738,15 @@
 			)
 		)
 		(property "LCSC part #" "C82460"
+			(at 135.89 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
 			(at 135.89 69.85 0)
 			(effects
 				(font
@@ -5801,7 +5864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 177.038 86.36 90)
 			(effects
 				(font
@@ -5828,6 +5891,15 @@
 			)
 		)
 		(property "LCSC part #" "C375519"
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -6131,7 +6203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 148.59 82.55 0)
 			(effects
 				(font
@@ -6222,7 +6294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 148.59 99.06 0)
 			(effects
 				(font
@@ -6309,7 +6381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 166.37 87.63 0)
 			(effects
 				(font
@@ -6361,7 +6433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 29.21 92.71 0)
 			(effects
 				(font
@@ -6388,6 +6460,15 @@
 			)
 		)
 		(property "LCSC part #" "C519980"
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
 			(at 29.21 92.71 0)
 			(effects
 				(font
@@ -6471,7 +6552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 20.32 33.02 0)
 			(effects
 				(font
@@ -6619,6 +6700,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "LCSC"
+			(at 269.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cbeff48a-4226-43b4-b40a-d0166aaf56d8")
 		)
@@ -6659,7 +6749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 196.85 74.93 0)
 			(effects
 				(font
@@ -6686,6 +6776,15 @@
 			)
 		)
 		(property "LCSC part #" "C519980"
+			(at 196.85 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
 			(at 196.85 74.93 90)
 			(effects
 				(font
@@ -6737,7 +6836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 50.8 68.58 0)
 			(effects
 				(font
@@ -6772,7 +6871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 50.8 68.58 0)
 			(effects
 				(font
@@ -6823,7 +6922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 33.782 68.58 90)
 			(effects
 				(font
@@ -6850,6 +6949,15 @@
 			)
 		)
 		(property "LCSC part #" "C304119"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
 			(at 35.56 68.58 0)
 			(effects
 				(font
@@ -7332,7 +7440,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part #" "LCSC"
+		(property "LCSC part #" "C19269962"
 			(at 63.5 25.4 0)
 			(effects
 				(font
@@ -7341,7 +7449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "C19269962"
+		(property "Supplier" "LCSC"
 			(at 63.5 25.4 0)
 			(effects
 				(font
@@ -9112,7 +9220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 226.06 77.47 0)
 			(effects
 				(font
@@ -9575,7 +9683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://www.lcsc.com/product-detail/C2857274.html"
+		(property "Supplier" "LCSC"
 			(at 43.18 35.56 0)
 			(effects
 				(font
@@ -9662,7 +9770,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part #" "LCSC"
+		(property "LCSC part #" "C4033338"
 			(at 91.44 30.48 0)
 			(effects
 				(font
@@ -9671,7 +9779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "C4033338"
+		(property "Supplier" "LCSC"
 			(at 91.44 30.48 0)
 			(effects
 				(font
@@ -9917,7 +10025,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part #" "LCSC"
+		(property "LCSC part #" "C19269962"
 			(at 104.14 30.48 0)
 			(effects
 				(font
@@ -9926,7 +10034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "C19269962"
+		(property "Supplier" "LCSC"
 			(at 104.14 30.48 0)
 			(effects
 				(font

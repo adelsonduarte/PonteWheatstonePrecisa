@@ -1,4 +1,4 @@
-26327584429729081
+26334676133033835
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60990,6 +60990,34 @@ heatsink
 0
 0
 0
+INA333AIDGKR
+DGK0008A-IPC_A
+
+INA333AIDGKR 
+0
+8
+8
+INA333AIDGKR
+DGK0008A-IPC_B
+
+INA333AIDGKR 
+0
+8
+8
+INA333AIDGKR
+DGK0008A-IPC_C
+
+INA333AIDGKR 
+0
+8
+8
+INA333AIDGKR
+DGK0008A-MFG
+
+INA333AIDGKR 
+0
+8
+8
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
